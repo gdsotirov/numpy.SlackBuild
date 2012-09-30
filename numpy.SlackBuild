@@ -19,7 +19,7 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: numpy.SlackBuild,v 1.1 2012/09/30 07:05:41 gsotirov Exp $
+# $Id: numpy.SlackBuild,v 1.2 2012/09/30 07:36:56 gsotirov Exp $
 #
 
 . ../../slack-package.conf
@@ -63,7 +63,9 @@ python setup.py install --root=$PKG || exit 5
 
 # Prepare
 ( cd $PKG; strip_lib )
+DOCFILES="$DOCFILES COMPATIBILITY LICENSE.txt THANKS.txt"
 ( cd $SRC; create_docs $PKG $NAME-$VERSION )
+( cd $PKG/usr/doc/$NAME-$VERSION; mv LICENSE.txt COPYING; mv README.txt README )
 
 mkdir -p $PKG/install
 install -m 644 $CWD/slack-desc     $PKG/install/slack-desc
