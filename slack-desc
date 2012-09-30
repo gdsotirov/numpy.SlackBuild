@@ -1,0 +1,13 @@
+numpy: NumPy (array processing for numbers, strings, records, and objects)
+numpy:
+numpy: NumPy is a general-purpose array-processing package designed to
+numpy: efficiently manipulate large multi-dimensional arrays of arbitrary
+numpy: records without sacrificing too much speed for small multi-dimensional
+numpy: arrays. NumPy is built on the Numeric code base and adds features
+numpy: introduced by numarray as well as an extended C-API and the ability
+numpy: to create arrays of arbitrary type which also makes NumPy suitable
+numpy: for interfacing with general-purpose data-base applications.
+numpy: There are also basic facilities for discrete fourier transform, basic
+numpy: linear algebra and random number generation.
+numpy:
+numpy: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>

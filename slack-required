@@ -1,0 +1,6 @@
+blas >= 20110419
+gcc >= 4.5.2
+gcc-gfortran >= 4.5.2
+glibc-solibs >= 2.13
+lapack >= 3.4.0
+python >= 2.6.6
