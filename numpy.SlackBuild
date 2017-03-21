@@ -19,13 +19,13 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: numpy.SlackBuild,v 1.8 2017/01/16 17:40:01 gsotirov Exp $
+# $Id: numpy.SlackBuild,v 1.9 2017/03/21 08:23:04 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=numpy
-VERSION=1.12.0
+VERSION=1.12.1
 ARCH=${ARCH:-i586}
 BUILD=${BUILD:-1}
 
@@ -51,7 +51,7 @@ mkdir -p $PKG
 
 # Extract the source
 cd $TMP
-tar -xvf $CWD/${NAME}-${VERSION}.tar.?z* || exit 3
+tar -xvf $CWD/${NAME}-${VERSION}.tar.?z* || unzip $CWD/${NAME}-${VERSION}.zip || exit 3
 cd $SRC
 fix_source
 
