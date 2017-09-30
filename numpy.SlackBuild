@@ -19,13 +19,13 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: numpy.SlackBuild,v 1.11 2017/07/07 17:08:38 gsotirov Exp $
+# $Id: numpy.SlackBuild,v 1.12 2017/09/30 19:07:10 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=numpy
-VERSION=1.13.1
+VERSION=1.13.3
 ARCH=${ARCH:-i586}
 BUILD=${BUILD:-1}
 
