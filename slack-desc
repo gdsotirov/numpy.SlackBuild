@@ -10,4 +10,4 @@ numpy: for interfacing with general-purpose data-base applications.
 numpy: There are also basic facilities for discrete fourier transform, basic
 numpy: linear algebra and random number generation.
 numpy:
-numpy: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
+numpy: Packaged by Georgi D. Sotirov <gdsotirov@gmail.com>
